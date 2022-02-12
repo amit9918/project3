@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+body {
+    background-color: rgb(38, 99, 99);
+    font-family: "proxima-nova";
+    font-family:"Times New Roman";
+    color: white;
+}
+
+.center-X {
+  display: flex;  
+  justify-content: center;
+}
+
+.my-image img {
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#time {
+    font-size: 20px;
+}
+
+#contact {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+form {
+    border: 3px solid #f1f1f1;
+    width:70%;
+    float: right;
+    margin: auto;
+    margin-top:4%;
+    border-radius: 15px;
+    padding-left: 30px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+
+#style {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type=text], input[type=Email],  input[type=password] {
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: unset;
+}
+
+#container {
+    margin-top: px;
+    height: auto;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 15px;
+  cursor: pointer;
+  margin:auto;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.texthighlight {
+    color: rgb(226, 14, 191);
+}
+
+.text-highlight {
+    color: rgb(223, 74, 15);
+}
+
+button:hover{
+background-color: rgb(0, 247, 255);
+}
+
+.my-image img:hover{
+    height: 30%;
+    width: 30%;
+    cursor: pointer;
+}
